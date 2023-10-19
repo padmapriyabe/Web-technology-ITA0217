@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Frameset Example</title>
+</head>
+<frameset cols="25%, 50%, 25%">
+    <frame src="left.html" name="leftFrame">
+    <frame src="main.html" name="mainFrame">
+    <frame src="right.html" name="rightFrame">
+    <noframes>
+        <body>
+            <p>This page uses frames, but your browser doesn't support them.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
