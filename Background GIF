@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Background GIF with CSS</title>
+</head>
+<body>
+    <div class="background">
+        <h1>My Webpage with a GIF Background</h1>
+    </div>
+</body>
+</html>
