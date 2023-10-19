@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animated Element</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        #animated-element {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            position: absolute;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-200px);
+                background-color: #e74c3c;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="animated-element"></div>
+
+    <script>
+        // JavaScript can be used to add interactivity
+        const element = document.getElementById('animated-element');
+        element.addEventListener('mouseover', () => {
+            element.style.animation = 'none'; // Pause the animation on mouseover
+        });
+        element.addEventListener('mouseout', () => {
+            element.style.animation = 'bounce 2s infinite'; // Resume the animation on mouseout
+        });
+    </script>
+</body>
+</html>
