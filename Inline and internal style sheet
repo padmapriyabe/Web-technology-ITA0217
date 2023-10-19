@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline and Internal Style Sheets</title>
+
+    <!-- External Style Sheet (Linked) -->
+    <link rel="stylesheet" type="text/css" href="external.css">
+
+    <!-- Internal Style Sheet -->
+    <style>
+        /* Internal Style Sheet Rules */
+        h1 {
+            color: blue;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph with internal styling.</p>
+    <p style="color: green;">This is a paragraph with inline styling.</p>
+</body>
+</html>
