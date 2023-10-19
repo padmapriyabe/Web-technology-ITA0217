@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Job Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Job Portal</h1>
+    </header>
+    
+    <main>
+        <section class="job-listings">
+            <article class="job">
+                <h2>Web Developer</h2>
+                <p>Company: ABC Tech</p>
+                <p>Location: New York</p>
+                <p>Salary: $70,000 per year</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article class="job">
+                <h2>Graphic Designer</h2>
+                <p>Company: Design Studio</p>
+                <p>Location: Los Angeles</p>
+                <p>Salary: $60,000 per year</p>
+                <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+            <!-- Add more job listings here -->
+        </section>
+    </main>
+</body>
+</html>
